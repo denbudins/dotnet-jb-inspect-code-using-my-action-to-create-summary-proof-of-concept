@@ -49,4 +49,4 @@ jobs:
               if: always()
               uses: denbudins/jb-inspect-summary-action@main
               with:
-                  report-path: report.sarif
+                  report-path: ./report.sarif
