@@ -6,7 +6,7 @@ namespace InspectCodeTestProject
     {
         public void ExampleMethod()
         {
-            Console.WriteLine("Ova metoda je primjer za InspectCode testiranje.");
+            Console.WriteLine("This method is an example for InspectCode testing.");
         }
     }
 }

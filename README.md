@@ -1,20 +1,20 @@
 # InspectCodeTestProject
 
-Ovaj projekt je .NET konzolna aplikacija namijenjena za testiranje JetBrains InspectCode alata i sličnih code analysis/test alata.
+This project is a .NET console application intended for testing JetBrains InspectCode and similar code analysis/testing tools.
 
-## Struktura
-- `Program.cs`: Ulazna točka aplikacije
-- Pripremljeno za dodavanje testnih klasa i integraciju s InspectCode
+## Structure
+- `Program.cs`: Application entry point
+- Ready for adding test classes and integration with InspectCode
 
-## Kako pokrenuti
+## How to run
 
-1. Otvorite terminal u root direktoriju projekta.
-2. Pokrenite aplikaciju:
+1. Open a terminal in the root directory of the project.
+2. Run the application:
    
    ```sh
    dotnet run --project InspectCodeTestProject/InspectCodeTestProject.csproj
    ```
 
-## Daljnji koraci
-- Dodajte testne klase i primjere koda za analizu.
-- Integrirajte InspectCode ili slične alate prema potrebi.
+## Next steps
+- Add test classes and code examples for analysis.
+- Integrate InspectCode or similar tools as needed.
