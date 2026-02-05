@@ -1,0 +1,1891 @@
+{
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.6.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "ArrangeNamespaceBody",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Convert to file-scoped namespace"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ExampleClass.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 2,
+                  "charOffset": 51,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "449C7EA95EB2F6DADE3CD1FFE52B98CB349D7622353DA35235D0DC79955FD3A3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "ArrangeNamespaceBody",
+          "ruleIndex": 0,
+          "level": "note",
+          "message": {
+            "text": "Convert to file-scoped namespace"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 2,
+                  "charOffset": 51,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "B391975E0AFD89CE8C3DC1FC7686FF92E3B96B165BCA24B8F8408326C4615D8B"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "ConditionIsAlwaysTrueOrFalse",
+          "ruleIndex": 1,
+          "level": "warning",
+          "message": {
+            "text": "Expression is always true"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 23,
+                  "charOffset": 891,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3F19E3CCA932E3229D1E766FE768467C95D0038ECBB5B041C70C7BED2D0BC953"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "ConvertIfStatementToConditionalTernaryExpression",
+          "ruleIndex": 2,
+          "level": "note",
+          "message": {
+            "text": "Convert into method call with '?:' expression inside"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 13,
+                  "endLine": 26,
+                  "endColumn": 15,
+                  "charOffset": 887,
+                  "charLength": 2
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3F19E3CCA932E3229D1E766FE768467C95D0038ECBB5B041C70C7BED2D0BC953"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name '_Value' does not match rule 'Instance fields (private)'. Suggested name is '_value'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 21,
+                  "endLine": 10,
+                  "endColumn": 27,
+                  "charOffset": 354,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9AD964B36D4289F3F59BCC76E65A3C0BA2599FFF627D52FB054F42CA06DFA0FB"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'anotherClass' does not match rule 'types_should_be_pascal_case'. Suggested name is 'AnotherClass'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 18,
+                  "endLine": 49,
+                  "endColumn": 30,
+                  "charOffset": 1396,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F29419B4F1B6FC17DFC2661181482F589A48B1DAB313195D0AEF3E7A6A63E3A3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'bad_property' does not match rule 'non_field_members_should_be_pascal_case'. Suggested name is 'BadProperty'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 20,
+                  "endLine": 12,
+                  "endColumn": 32,
+                  "charOffset": 503,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "095A0EF522C749746EDDC279369672D63C266A6D13D10ACF8A14F0109DC3EF96"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'name' does not match rule 'Instance fields (not private)'. Suggested name is 'Name'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 27,
+                  "charOffset": 303,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "438E390C3AD05A841DD098E05EE7B559722662ABE15ED683D44FC5FF458446A3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'NotIInterface' does not match rule 'interface_should_be_begins_with_i'. Suggested name is 'INotIInterface'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 22,
+                  "endLine": 43,
+                  "endColumn": 35,
+                  "charOffset": 1275,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6F7BABF1365D00798394472D7C45E4E08227E44C05D1AD94C5A83E77ACB7F9AF"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'test_class' does not match rule 'types_should_be_pascal_case'. Suggested name is 'TestClass'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 11,
+                  "endLine": 6,
+                  "endColumn": 21,
+                  "charOffset": 167,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E5B9E51BAB9AB80A1A930299A6DCCD9ADA55583EDEDDBD973BCA283D7B7FC8BE"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'unusedField' does not match rule 'Instance fields (private)'. Suggested name is '_unusedField'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 13,
+                  "endLine": 8,
+                  "endColumn": 24,
+                  "charOffset": 247,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3B6B16F5916B1AD0DB735AC3753E9CEC4C7FEC49EC7E262EA25512A92C011D0D"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "InconsistentNaming",
+          "ruleIndex": 3,
+          "level": "note",
+          "message": {
+            "text": "Name 'unusedMethod' does not match rule 'non_field_members_should_be_pascal_case'. Suggested name is 'UnusedMethod'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 21,
+                  "endLine": 36,
+                  "endColumn": 33,
+                  "charOffset": 1113,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D462253DC66D5A4FA9E445445A3C8BAA49AA13467515E418E97C12A2A26BD002"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "NotAccessedField.Compiler",
+          "ruleIndex": 4,
+          "level": "warning",
+          "message": {
+            "text": "Field 'unusedField' is assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 13,
+                  "endLine": 8,
+                  "endColumn": 24,
+                  "charOffset": 247,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3B6B16F5916B1AD0DB735AC3753E9CEC4C7FEC49EC7E262EA25512A92C011D0D"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "NotAccessedField.Global",
+          "ruleIndex": 5,
+          "level": "note",
+          "message": {
+            "text": "Field 'name' is assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 23,
+                  "endLine": 9,
+                  "endColumn": 27,
+                  "charOffset": 303,
+                  "charLength": 4
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "438E390C3AD05A841DD098E05EE7B559722662ABE15ED683D44FC5FF458446A3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "NotAccessedVariable.Compiler",
+          "ruleIndex": 6,
+          "level": "warning",
+          "message": {
+            "text": "Local variable 'y' is only assigned but its value is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 17,
+                  "endLine": 38,
+                  "endColumn": 18,
+                  "charOffset": 1188,
+                  "charLength": 1
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "34DE06E1C09080A2EF765F89CBFCA518CF86A1D3EC728A44DA777CF8659961AC"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ExampleClass.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14,
+                  "charOffset": 0,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E357509FB3A6CABF8F3DA0A44E95E7F7DFEF86DA8A6F055D7C913A2C7D23923C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "RedundantUsingDirective",
+          "ruleIndex": 7,
+          "level": "warning",
+          "message": {
+            "text": "Using directive is not required by the code and can be safely removed"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14,
+                  "charOffset": 0,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E357509FB3A6CABF8F3DA0A44E95E7F7DFEF86DA8A6F055D7C913A2C7D23923C"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedField.Compiler",
+          "ruleIndex": 8,
+          "level": "warning",
+          "message": {
+            "text": "Field '_Value' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 21,
+                  "endLine": 10,
+                  "endColumn": 27,
+                  "charOffset": 354,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "9AD964B36D4289F3F59BCC76E65A3C0BA2599FFF627D52FB054F42CA06DFA0FB"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'DoNothing' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 21,
+                  "endLine": 51,
+                  "endColumn": 30,
+                  "charOffset": 1437,
+                  "charLength": 9
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "DD87E4EA7A961065BD3B1CA80C02D457750899A29177D81B13289FA1655FE4B9"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'DoStuff' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 21,
+                  "endLine": 23,
+                  "endColumn": 28,
+                  "charOffset": 829,
+                  "charLength": 7
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "AFF9F85266AC5A97ADA7C4E2F9ED1D0277A59490B39722AED4901FAC737E17A0"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'DoWork' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 14,
+                  "endLine": 45,
+                  "endColumn": 20,
+                  "charOffset": 1310,
+                  "charLength": 6
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "7AE9EAEF568A3C0F9958029584A4A59373503FC088DEADA893C1D55011820F33"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'ExampleMethod' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ExampleClass.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 21,
+                  "endLine": 7,
+                  "endColumn": 34,
+                  "charOffset": 112,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "33B6FA8FB95A8917FB74240B4B7DFAA346F5CC08D8C5085051513A1D7741C67E"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Method 'unusedMethod' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 21,
+                  "endLine": 36,
+                  "endColumn": 33,
+                  "charOffset": 1113,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "D462253DC66D5A4FA9E445445A3C8BAA49AA13467515E418E97C12A2A26BD002"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'bad_property' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 20,
+                  "endLine": 12,
+                  "endColumn": 32,
+                  "charOffset": 503,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "095A0EF522C749746EDDC279369672D63C266A6D13D10ACF8A14F0109DC3EF96"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedMember.Global",
+          "ruleIndex": 9,
+          "level": "note",
+          "message": {
+            "text": "Property 'BadProperty' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 20,
+                  "endLine": 11,
+                  "endColumn": 31,
+                  "charOffset": 405,
+                  "charLength": 11
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "C3BBC651027312BF1D851EDA31A53FD6FBFD3FFAFF2F60C12E52BF11209499B5"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Class 'anotherClass' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 18,
+                  "endLine": 49,
+                  "endColumn": 30,
+                  "charOffset": 1396,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "F29419B4F1B6FC17DFC2661181482F589A48B1DAB313195D0AEF3E7A6A63E3A3"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Class 'ExampleClass' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "ExampleClass.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 5,
+                  "startColumn": 18,
+                  "endLine": 5,
+                  "endColumn": 30,
+                  "charOffset": 71,
+                  "charLength": 12
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "3BDA6430BE788DCA084DA2EAC13700F66427FCCAF8FD35D3C5BF8D906E9F3DFA"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Class 'test_class' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 11,
+                  "endLine": 6,
+                  "endColumn": 21,
+                  "charOffset": 167,
+                  "charLength": 10
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "E5B9E51BAB9AB80A1A930299A6DCCD9ADA55583EDEDDBD973BCA283D7B7FC8BE"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        },
+        {
+          "ruleId": "UnusedType.Global",
+          "ruleIndex": 10,
+          "level": "note",
+          "message": {
+            "text": "Interface 'NotIInterface' is never used"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "WarningErrorDemo.cs",
+                  "uriBaseId": "solutionDir",
+                  "index": 1
+                },
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 22,
+                  "endLine": 43,
+                  "endColumn": 35,
+                  "charOffset": 1275,
+                  "charLength": 13
+                }
+              }
+            }
+          ],
+          "partialFingerprints": {
+            "contextRegionHash/v1": "6F7BABF1365D00798394472D7C45E4E08227E44C05D1AD94C5A83E77ACB7F9AF"
+          },
+          "properties": {
+            "tags": ["C#",".NET 10.0"]
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "InspectCode",
+          "organization": "JetBrains, Inc",
+          "fullName": "JetBrains Inspect Code 2025.3.2",
+          "semanticVersion": "253.0.20260127.110037",
+          "informationUri": "http://www.jetbrains.com/resharper/features/command-line.html",
+          "rules": [
+            {
+              "id": "ArrangeNamespaceBody",
+              "fullDescription": {
+                "text": "Use file-scoped or block-scoped namespace body"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/ArrangeNamespaceBody.html"
+              },
+              "shortDescription": {
+                "text": "Use preferred namespace body style"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/ArrangeNamespaceBody.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeStyleIssues",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ConditionIsAlwaysTrueOrFalse",
+              "fullDescription": {
+                "text": "Value of a boolean expression is always the same at this point"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/ConditionIsAlwaysTrueOrFalse.html"
+              },
+              "shortDescription": {
+                "text": "Expression is always 'true' or always 'false'"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/ConditionIsAlwaysTrueOrFalse.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ConvertIfStatementToConditionalTernaryExpression",
+              "fullDescription": {
+                "text": "Convert the following code:\r\n<pre>\r\n  if (condition) x = expr1;\r\n  else x = expr2;\r\n</pre>\r\nTo:\r\n<pre>\r\n  x = condition ? expr1 : expr2;\r\n</pre>"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/ConvertIfStatementToConditionalTernaryExpression.html"
+              },
+              "shortDescription": {
+                "text": "'if' statement can be rewritten as '?:' expression"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/ConvertIfStatementToConditionalTernaryExpression.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.LanguageUsage",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "InconsistentNaming",
+              "fullDescription": {
+                "text": "Name doesn't match naming style defined for this kind of symbol"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/InconsistentNaming.html"
+              },
+              "shortDescription": {
+                "text": "Inconsistent Naming"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/InconsistentNaming.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.ConstraintViolation",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.ConstraintViolation",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.ConstraintViolation",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "NotAccessedField.Compiler",
+              "fullDescription": {
+                "text": "Field is assigned but its value is never used (compiler warning)"
+              },
+              "help": {
+                "text": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0414"
+              },
+              "shortDescription": {
+                "text": "Non-accessed field"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0414",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "NotAccessedField.Global",
+              "fullDescription": {
+                "text": "Field is assigned but its value is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/NotAccessedField.Global.html"
+              },
+              "shortDescription": {
+                "text": "Non-accessed field: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/NotAccessedField.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASXX.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.CodeSmell",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "NotAccessedVariable.Compiler",
+              "fullDescription": {
+                "text": "Local variable is assigned but its value is never used (compiler warning)"
+              },
+              "help": {
+                "text": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0219"
+              },
+              "shortDescription": {
+                "text": "Non-accessed local variable"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0219",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "RedundantUsingDirective",
+              "fullDescription": {
+                "text": "Using directive is not required by the code and can be safely removed"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/RedundantUsingDirective.html"
+              },
+              "shortDescription": {
+                "text": "Redundant using directive"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/RedundantUsingDirective.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.CodeRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedField.Compiler",
+              "fullDescription": {
+                "text": "Field is never used (compiler warning)"
+              },
+              "help": {
+                "text": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0169"
+              },
+              "shortDescription": {
+                "text": "Field is never used"
+              },
+              "defaultConfiguration": {
+                "level": "warning"
+              },
+              "helpUri": "https://learn.microsoft.com/en-us/dotnet/csharp/misc/cs0169",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.CompilerWarnings",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedMember.Global",
+              "fullDescription": {
+                "text": "Type member is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html"
+              },
+              "shortDescription": {
+                "text": "Type member is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedMember.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASXX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "ASPX.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "UnusedType.Global",
+              "fullDescription": {
+                "text": "Type is never used"
+              },
+              "help": {
+                "text": "https://www.jetbrains.com/help/resharper/UnusedType.Global.html"
+              },
+              "shortDescription": {
+                "text": "Type is never used: Non-private accessibility"
+              },
+              "defaultConfiguration": {
+                "level": "note"
+              },
+              "helpUri": "https://www.jetbrains.com/help/resharper/UnusedType.Global.html",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "VBASIC.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                },
+                {
+                  "target": {
+                    "id": "XAML.DeclarationRedundancy",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ],
+          "taxa": [
+            {
+              "id": "ASPX",
+              "name": "Aspx"
+            },
+            {
+              "id": "ASPX.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASPX.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASPX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASPX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASXX",
+              "name": "HttpHandler or WebService"
+            },
+            {
+              "id": "ASXX.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASXX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ASXX.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "ASXX",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP",
+              "name": "C#"
+            },
+            {
+              "id": "CSHARP.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CodeStyleIssues",
+              "name": "Syntax Style",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.CompilerWarnings",
+              "name": "Compiler Warnings",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.ConstraintViolation",
+              "name": "Constraints Violations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "CSHARP.LanguageUsage",
+              "name": "Language Usage Opportunities",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "CSHARP",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC",
+              "name": "VB.NET"
+            },
+            {
+              "id": "VBASIC.CodeRedundancy",
+              "name": "Redundancies in Code",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.CompilerWarnings",
+              "name": "Compiler Warnings",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.ConstraintViolation",
+              "name": "Constraints Violations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "VBASIC.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "VBASIC",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML",
+              "name": "XAML"
+            },
+            {
+              "id": "XAML.CodeSmell",
+              "name": "Potential Code Quality Issues",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML.ConstraintViolation",
+              "name": "Constraints Violations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "XAML.DeclarationRedundancy",
+              "name": "Redundancies in Symbol Declarations",
+              "relationships": [
+                {
+                  "target": {
+                    "id": "XAML",
+                    "toolComponent": {
+                      "name": "InspectCode"
+                    }
+                  },
+                  "kinds": [
+                    "superset"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "https://github.com/denbudins/dotnet-jb-inspect-code-using-my-action-to-create-summary-proof-of-concept.git",
+          "revisionId": "d3a9604fd6a4605dcc02e5d89c49bfeebb089e79",
+          "branch": "test-branch"
+        }
+      ],
+      "originalUriBaseIds": {
+        "solutionDir": {
+          "uri": "file:///D:/Projects/dotnet-jb-inspect-code-using-my-action-to-create-summary-proof-of-concept/InspectCodeTestProject/",
+          "description": {
+            "text": "Solution Directory"
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "ExampleClass.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "1D9F53EE14C389F76E105D3990CD88B5",
+            "sha-1": "9432FD313D7EB7AD076146F3AB8034E4DF621184",
+            "sha-256": "472379F59FE220F2B4F815FD254CF9688A105B06D76931A1B0CE457ECC028CF1"
+          }
+        },
+        {
+          "location": {
+            "uri": "WarningErrorDemo.cs",
+            "uriBaseId": "solutionDir"
+          },
+          "hashes": {
+            "md5": "BC7EA2BFD3C56933E82FC75A0C5E3E8D",
+            "sha-1": "A2E366F41384C25F19799822B4334B321638BDC0",
+            "sha-256": "E3CB53046181EE44450CDCA59733F6EF9F3F8505CB8607F3F7F5CDA5210914A4"
+          }
+        }
+      ],
+      "columnKind": "utf16CodeUnits"
+    }
+  ]
+}
