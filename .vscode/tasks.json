@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "dotnet new console for InspectCode tests",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"new",
+				"console",
+				"-n",
+				"InspectCodeTestProject"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		}
+	]
+}
