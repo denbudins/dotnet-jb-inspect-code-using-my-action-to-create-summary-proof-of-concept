@@ -1,0 +1,50 @@
+name: .NET Code Style Check
+
+permissions:
+    contents: read
+    pull-requests: write
+    checks: write
+
+on:
+    push:
+        branches: ["main", "develop"]
+    pull_request:
+        branches: ["main", "develop"]
+
+jobs:
+    dotnet-code-style-check:
+        name: .NET Code Style Check
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Setup .NET
+              uses: actions/setup-dotnet@v4
+              with:
+                  dotnet-version: 8.0.x
+
+            - name: Restore dependencies
+              run: dotnet restore
+
+            - name: Build
+              run: dotnet build --no-restore
+
+            - name: Download JetBrains InspectCode
+              run: |
+                  wget https://download.jetbrains.com/resharper/dotUltimate.2024.1/JetBrains.ReSharper.CommandLineTools.linux-x64.2024.1.0.tar.gz -O jb-cmdline.tar.gz
+                  mkdir jbtools
+                  tar -xzf jb-cmdline.tar.gz -C jbtools
+
+            - name: Run InspectCode
+              run: |
+                  jbtools/InspectCode --output=report.sarif --format=sarif InspectCodeTestProject/InspectCodeTestProject.csproj || true
+
+            - name: Publish InspectCode Report Artifact
+              uses: actions/upload-artifact@v4
+              with:
+                  name: report-sarif
+                  path: report.sarif
+
+            - name: Generate Markdown Report
+              if: always()
+              uses: denbudins/jb-inspect-summary-action@main
