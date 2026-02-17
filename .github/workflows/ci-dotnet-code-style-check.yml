@@ -21,3 +21,10 @@ jobs:
               with:
                   working-directory: ./InspectCodeTestProject
                   sln-file: InspectCodeTestProject.csproj
+
+            - name: Publish InspectCode Report
+              uses: intellegens-hr/actions/.github/actions/dotnet-sarif-to-md@testing-branch
+              with:
+                  report-path: ./InspectCodeTestProject
+                  report-name: dotnet_report.sarif
+                  report-title: report-sarif
